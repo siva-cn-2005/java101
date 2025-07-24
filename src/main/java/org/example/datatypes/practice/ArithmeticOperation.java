@@ -1,4 +1,4 @@
-package org.example.practice;
+package org.example.datatypes.practice;
 
 public class ArithmeticOperation {
 
@@ -24,7 +24,19 @@ public class ArithmeticOperation {
         }
         return result;
     }
+    public static int diff(int a, int b){
+        int result=a-b;
+        if (result >= 0){
+            System.out.println("positive");
+            return result;
+        }
+        else {
+           // result=b-a;
+            System.out.println("negative");
+            return result*-1;
+        }
 
+    }
     private static void print(long result) {
         System.out.println(result);
     }

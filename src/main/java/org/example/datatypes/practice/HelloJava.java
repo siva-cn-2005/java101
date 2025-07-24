@@ -1,16 +1,12 @@
-package org.example.main;
+package org.example.datatypes.practice;
 
-import org.example.practice.ArithmeticOperation;
-
-public class HelloJavza {
-    static String result = "jhjh";
+public class HelloJava {
 
     public static void main(String[] args) {
-
-        for(int i=10; i>=0; i--) {
-            System.out.println(i);
-        }
-
+        int a=10;
+        int b=8;
+        if(a > b);
+/*
         long result;
         result = ArithmeticOperation.sum(25,25);
         System.out.println("sum="+result);
@@ -25,8 +21,12 @@ public class HelloJavza {
         System.out.print("square="+result);
 
          result =ArithmeticOperation.sub(25,25);
-
+          //ArithmeticOperation.print(result);
          System.out.println(result);
+*/
+
+        long result=ArithmeticOperation.power(3,3);
+        System.out.println(result);
 
     }
 }
